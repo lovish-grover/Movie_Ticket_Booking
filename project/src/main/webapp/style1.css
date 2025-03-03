@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+*{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins',sans-serif;
+            box-sizing: border-box;
+}
+.header {
+        width: 100%;
+        height: 100vh;
+        background: #000942;
+        padding-left: 11%;
+        padding-right: 8%;
+        position: relative;
+        
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 15px;
+    border-bottom: 1px solid #bababa;
+}
+.top-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+} 
+.top-nav button{
+    background: #e91e63;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}    
+.side{
+    position: fixed;
+    /* background: #e91e63; */
+    left: 0;
+    top: 0;
+    width: 110px;
+    height: 100vh;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    background: linear-gradient(#00bcd4, #e91e63,#3f51b5, #00bcd4);
+    background-size: 100% 500%;
+    background-position: 0 40%;
+}
+
+.side h1{
+    
+    text-decoration: dotted;
+    color: #fff;
+    transform: rotate(-90deg) translateX(50%);
+    width: max-content;
+    align-items : left;
+}
+.swiper{
+    width: 80%;
+    height: 70%;
+    
+}
+.table{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+}
+h1{
+    font-size: 35px;
+    font-family: serif ;
+    
+}
+section{
+		height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	border: 10px solid white;
+	max-width: 700px;
+	margin: auto;
+	
+	height: 50vh;
+	width : 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+a:hover{
+	color : white;
+	text-decoration : none;
+}
+.img{
+	height: 100px;
+	width: 150px;
+	background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/0/d/d/small-spos8825-poster-iron-man-1-a-official-sticker-sl-9829-wall-original-imaghs5pygznwxu9.jpeg?q=20");
+	background-size: cover;
+}
