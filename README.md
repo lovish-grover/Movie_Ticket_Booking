@@ -21,7 +21,7 @@ The **Movie Ticket Booking System** is a dynamic web project developed using **J
 ## Installation & Setup
 1. **Clone the Repository**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/lovish-grover/Movie_Ticket_Booking
    cd movie-ticket-booking
    ```
 2. **Database Setup**
@@ -53,5 +53,5 @@ The **Movie Ticket Booking System** is a dynamic web project developed using **J
 Contributions are welcome! Feel free to fork the repository and submit a pull request for frontend enhancements.
 
 ## Contact
-For any issues or suggestions, please reach out at [your-email@example.com].
+For any issues or suggestions, please reach out at [groverlovish05@gmail.com].
 
